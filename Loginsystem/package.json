@@ -1,0 +1,53 @@
+{
+  "name": "kdrl_web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "compile": "npm run build && cd dist && jar -cvf ROOT.war ."
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^4.4.3",
+    "@material/icon-button": "^14.0.0",
+    "@react-spring/web": "^9.7.4",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@syncfusion/ej2-react-calendars": "^26.2.12",
+    "aos": "^2.3.4",
+    "axios": "^1.6.7",
+    "feather-icons": "^4.29.0",
+    "flatpickr": "^4.6.13",
+    "formik": "^2.4.6",
+    "hls.js": "^1.5.15",
+    "luxon": "^3.5.0",
+    "material-icons": "^1.13.12",
+    "multiselect-react-dropdown": "^2.0.25",
+    "rc-slider": "^11.1.6",
+    "react": "^18.2.0",
+    "react-alice-carousel": "^2.8.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-flatpickr": "^3.10.13",
+    "react-frame-component": "^5.2.6",
+    "react-google-recaptcha": "^3.1.0",
+    "react-helmet": "^6.1.0",
+    "react-international-phone": "2.0.1",
+    "react-json-pretty": "^2.2.0",
+    "react-native-public-ip": "^1.0.2",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.4.2",
+    "react-slick": "^0.30.2",
+    "react-slider": "^2.0.6",
+    "react-time-picker": "^7.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5"
+  }
+}
